@@ -1,6 +1,8 @@
 import os, time
 
+# test
 class Bot():
+    
     def __init__(self):
         self.historical_returns = self._load_returns("spy.csv")
 
