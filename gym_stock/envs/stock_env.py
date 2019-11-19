@@ -7,7 +7,7 @@ from gym.utils import seeding
 
 import logging
 logger = logging.getLogger(__name__)
-# test
+
 class StockEnv(gym.Env, utils.EzPickle):
     metadata = {'render.modes': ['human']}
 
